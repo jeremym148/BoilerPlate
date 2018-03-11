@@ -26,6 +26,14 @@ s.source = { :git => "https://github.com/jeremym148/BoilerPlate.git", :tag => "#
 
 # 7
 s.framework = "UIKit"
+s.dependency 'SalesforceSDKCore'
+s.dependency 'ReSwift'
+s.dependency 'MGSwipeTableCell'
+s.dependency 'IQKeyboardManagerSwift'
+s.dependency 'Kingfisher'
+s.dependency 'Fabric'
+s.dependency 'Crashlytics'
+s.dependency 'GSImageViewerController'
 
 # 8
 s.source_files = "Balink iOS boilerplate/**/*.{swift}"
