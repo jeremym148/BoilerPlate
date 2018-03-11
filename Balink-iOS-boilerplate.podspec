@@ -21,7 +21,7 @@ s.homepage = "https://github.com/jeremym148/BoilerPlate"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/jeremym148/BoilerPlate.git", :tag => "master"}
+s.source = { :git => "https://github.com/jeremym148/BoilerPlate.git", :tag => "#{s.version}"}
 
 
 # 7
