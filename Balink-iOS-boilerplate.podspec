@@ -26,8 +26,6 @@ s.source = { :git => "https://github.com/jeremym148/BoilerPlate.git", :tag => "m
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 2.0'
-s.dependency 'MBProgressHUD', '~> 0.9.0'
 s.dependency 'SalesforceSDKCore'
 s.dependency 'ReSwift'
 s.dependency 'MGSwipeTableCell'
