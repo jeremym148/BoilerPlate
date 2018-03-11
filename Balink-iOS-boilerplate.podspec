@@ -31,5 +31,4 @@ s.framework = "UIKit"
 s.source_files = "Balink iOS boilerplate/**/*.{swift}"
 
 # 9
-s.resources = "Balink iOS boilerplate/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
