@@ -31,8 +31,6 @@ s.dependency 'ReSwift'
 s.dependency 'MGSwipeTableCell'
 s.dependency 'IQKeyboardManagerSwift'
 s.dependency 'Kingfisher'
-s.dependency 'Fabric'
-s.dependency 'Crashlytics'
 s.dependency 'GSImageViewerController'
 
 # 8
