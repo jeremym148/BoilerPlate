@@ -28,8 +28,8 @@ s.source = { :git => "https://github.com/jeremym148/BoilerPlate.git", :tag => "#
 s.framework = "UIKit"
 
 # 8
-s.source_files = "Balink-iOS-boilerplate/**/*.{swift}"
+s.source_files = "Balink iOS boilerplate/**/*.{swift}"
 
 # 9
-s.resources = "Balink-iOS-boilerplate/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "Balink iOS boilerplate/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
