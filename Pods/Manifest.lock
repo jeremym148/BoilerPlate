@@ -1,0 +1,63 @@
+PODS:
+  - CocoaLumberjack (2.4.0):
+    - CocoaLumberjack/Default (= 2.4.0)
+    - CocoaLumberjack/Extensions (= 2.4.0)
+  - CocoaLumberjack/Core (2.4.0)
+  - CocoaLumberjack/Default (2.4.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.4.0):
+    - CocoaLumberjack/Default
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Fabric (1.7.2)
+  - GSImageViewerController (1.4.2)
+  - IQKeyboardManagerSwift (5.0.7)
+  - Kingfisher (4.6.1)
+  - MGSwipeTableCell (1.6.6)
+  - ReSwift (4.0.1)
+  - SalesforceAnalytics (6.0.0):
+    - SalesforceAnalytics/SalesforceAnalytics (= 6.0.0)
+  - SalesforceAnalytics/SalesforceAnalytics (6.0.0):
+    - CocoaLumberjack (~> 2.4.0)
+  - SalesforceSDKCore (6.0.0):
+    - SalesforceSDKCore/SalesforceSDKCore (= 6.0.0)
+  - SalesforceSDKCore/SalesforceSDKCore (6.0.0):
+    - SalesforceAnalytics
+    - SalesforceSDKCore/SalesforceSDKCore/arc (= 6.0.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base (= 6.0.0)
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc (= 6.0.0)
+  - SalesforceSDKCore/SalesforceSDKCore/arc (6.0.0):
+    - SalesforceAnalytics
+    - SalesforceSDKCore/SalesforceSDKCore/base
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc
+  - SalesforceSDKCore/SalesforceSDKCore/base (6.0.0):
+    - SalesforceAnalytics
+  - SalesforceSDKCore/SalesforceSDKCore/no-arc (6.0.0):
+    - SalesforceAnalytics
+    - SalesforceSDKCore/SalesforceSDKCore/base
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - GSImageViewerController
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MGSwipeTableCell
+  - ReSwift
+  - SalesforceSDKCore
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: aa9dcab71bdf9eaf2a63bbd9ddc87863efe45457
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  GSImageViewerController: 38b1aabbc8ca0ffad2b38c67768bcc9248287375
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  MGSwipeTableCell: c3bc6e261e7bc06c112909fe3fb8205de286082c
+  ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
+  SalesforceAnalytics: fdfc2cca5c1b25897bf66e022b045b905bc5eb30
+  SalesforceSDKCore: ab5786e65f71249de2a34876de5cfc588efb8aa4
+
+PODFILE CHECKSUM: fabfcd6cfa82aa95d4833424770331214a4ff893
+
+COCOAPODS: 1.3.1

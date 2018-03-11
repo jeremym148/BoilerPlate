@@ -1,0 +1,6 @@
+framework module Pods_Balink_iOS_boilerplate {
+  umbrella header "Pods-Balink iOS boilerplate-umbrella.h"
+
+  export *
+  module * { export * }
+}
