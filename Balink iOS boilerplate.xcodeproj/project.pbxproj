@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		16D3044120480628002FFC70 /* Balink_iOS_boilerplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D3043F20480628002FFC70 /* Balink_iOS_boilerplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16D3044E20480FAB002FFC70 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3044820480FAA002FFC70 /* Utils.swift */; };
-		16D3045320480FAB002FFC70 /* UserDefaultUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3044D20480FAB002FFC70 /* UserDefaultUtils.swift */; };
 		16D3045920481085002FFC70 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3045520481084002FFC70 /* RoundedView.swift */; };
 		16D3045A20481085002FFC70 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3045620481084002FFC70 /* RoundedLabel.swift */; };
 		16D3045B20481085002FFC70 /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3045720481084002FFC70 /* GradientColor.swift */; };
@@ -51,7 +50,6 @@
 		16D3043F20480628002FFC70 /* Balink_iOS_boilerplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Balink_iOS_boilerplate.h; sourceTree = "<group>"; };
 		16D3044020480628002FFC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D3044820480FAA002FFC70 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		16D3044D20480FAB002FFC70 /* UserDefaultUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultUtils.swift; sourceTree = "<group>"; };
 		16D3045520481084002FFC70 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		16D3045620481084002FFC70 /* RoundedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
 		16D3045720481084002FFC70 /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 				16D30462204810C6002FFC70 /* General Helpers */,
 				16D3045D2048109A002FFC70 /* CoreData Helpers */,
 				16D304542048106E002FFC70 /* ReusableViews */,
-				16D3044D20480FAB002FFC70 /* UserDefaultUtils.swift */,
 				16D3049B20482487002FFC70 /* LocalizeUtils.swift */,
 				16D3044820480FAA002FFC70 /* Utils.swift */,
 			);
@@ -373,7 +370,6 @@
 				16D3049720481152002FFC70 /* WSGeneral.swift in Sources */,
 				16D30491204810F4002FFC70 /* UIImage+BackgroundColor.swift in Sources */,
 				16D30482204810F4002FFC70 /* NSLayoutConstraint + Multiplier.swift in Sources */,
-				16D3045320480FAB002FFC70 /* UserDefaultUtils.swift in Sources */,
 				16D30492204810F4002FFC70 /* UITextField+attributed..swift in Sources */,
 				16D3048B204810F4002FFC70 /* MGSwipeButton+init.swift in Sources */,
 				16D30461204810AE002FFC70 /* CoreDataUtils.swift in Sources */,

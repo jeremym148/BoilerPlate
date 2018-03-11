@@ -14,4 +14,8 @@ pod 'Fabric'
 pod 'Crashlytics'
 pod 'GSImageViewerController'
 
+pre_install do |installer|
+    def installer.verify_no_static_framework_transitive_dependencies; end
+end
+
 end
